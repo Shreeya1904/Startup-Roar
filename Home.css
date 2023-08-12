@@ -1,10 +1,10 @@
 body{
-    color: #fff;
+    color: #000000;
     font-family: "Nunito Semibold";
 }
 
 .Wrapper{
-    max-width: 1500px;
+    max-width: 1400px;
     margin:0 auto;
 }
 
@@ -61,4 +61,39 @@ a:link{
     background-image: linear-gradient(to right, rgb(79, 153, 250) , rgb(156, 199, 246));
     padding: 10px 35px;
     border-radius: 30px;
+}
+
+.Home{
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    column-gap: 3px;
+}
+
+.Intro{
+    padding: 40px;
+}
+
+.short_startup{
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows: minmax(70px,auto);
+    column-gap: 3px;
+}
+.short_intern{
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows: minmax(70px,auto);
+    column-gap: 3px;
+}
+
+.testimonial{
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows: minmax(70px,auto);
+    column-gap: 100px;
 }
