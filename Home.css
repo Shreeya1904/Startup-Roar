@@ -60,17 +60,19 @@ a:link{
 }
 
 .login{
-    border: 2px rgb(83, 158, 237) solid;
-    padding: 10px 35px;
-    border-radius: 30px;
+    border: 2px #412574 solid;
+    padding: 5px 35px;
+    border-radius: 9.6px;
     margin: 0 auto;
+    font-size: 120%;
 }
 
 .Joinus{
-    border: 1px rgb(83, 158, 237) solid;
-    background-image: linear-gradient(to right, rgb(79, 153, 250) , rgb(156, 199, 246));
-    padding: 10px 35px;
-    border-radius: 30px;
+    border: 2px rgb(107, 169, 250) solid;
+    background-color: rgb(107, 169, 250);
+    padding: 5px 35px;
+    border-radius: 9.6px;
+    font-size: 120%;
 }
 
 .Home{
@@ -118,4 +120,19 @@ a:link{
 
 .short_startup p{
     font-size: 105%
+}
+
+.Intern{
+    background: linear-gradient(to right, rgb(2, 2, 70), rgb(107, 169, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+    font-size: 4.5em;
+    background: linear-gradient(to right, #3700a4, #9664fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav{
+    font-size: 120%;
 }
