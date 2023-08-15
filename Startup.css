@@ -101,21 +101,25 @@ h1{
     color: #fff;
 }
 .ques{
-    background-color: #8f60ed;
+    font-size: 225%;
     padding:2% 8%;
-    
-}
+    text-align: center; 
+    background: linear-gradient(to right, #312055, #714bbf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+
 .reason1{
     background-color: #825ad2;
-    padding:2% 8%;   
+    padding:2% 10%;   
 }
 .reason2{
     background-color: #5f3ea1;
-    padding:2% 8%;   
+    padding:2% 10%;   
 }
 .reason3{
     background-color: #472e79;
-    padding:2% 8%;   
+    padding:2% 10%;   
 }
 .unique{
     text-align: center;
