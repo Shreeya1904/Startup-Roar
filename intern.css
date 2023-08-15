@@ -84,3 +84,55 @@ a:link{
 .nav{
     font-size: 120%;
 }
+.Intro{
+    padding: 40px;
+}
+h1{
+    font-size: 4.5em;
+    background: linear-gradient(to right, #3700a4, #9664fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    text-align: center;
+    font-size: 300%;
+    background: linear-gradient(to right, rgb(2, 2, 70), rgb(107, 169, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.how{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(250px, auto);
+    padding: 1% 10%;
+    column-gap: 3px;
+}
+.head{
+    font-size: 180%;
+    color: rgb(2, 2, 70);
+}
+.reason{
+    color: #323232;
+    align-self: center;
+    justify-self: center;
+}
+.img{
+    align-self: self-start;
+    justify-self: center;
+}
+.start{
+    text-align: center;
+    color: #472e79;
+}
+.message{
+    font-size: 140%;
+    padding: 1% 20%
+}
+.start_hiring{
+    font-size: 250%;
+    border: 2px solid #5f3ea1;
+    padding: 1% 10%;
+    display: inline;
+    background-color: #5f3ea1;
+    border-radius: 20px;
+}
