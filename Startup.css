@@ -84,3 +84,61 @@ a:link{
 .nav{
     font-size: 120%;
 }
+.Intro{
+    padding: 40px;
+}
+h1{
+    font-size: 4.5em;
+    background: linear-gradient(to right, #3700a4, #9664fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Why{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 125%;
+    color: #fff;
+}
+.ques{
+    background-color: #8f60ed;
+    padding:2% 8%;
+    
+}
+.reason1{
+    background-color: #825ad2;
+    padding:2% 8%;   
+}
+.reason2{
+    background-color: #5f3ea1;
+    padding:2% 8%;   
+}
+.reason3{
+    background-color: #472e79;
+    padding:2% 8%;   
+}
+.unique{
+    text-align: center;
+    padding: 1% 30%;
+}
+h2{
+    background: linear-gradient(to right, rgb(2, 2, 70), rgb(107, 169, 250));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.start{
+    text-align: center;
+    color: #472e79;
+}
+.message{
+    font-size: 140%;
+    padding: 1% 20%
+}
+.start_hiring{
+    font-size: 250%;
+    border: 2px solid #5f3ea1;
+    padding: 1% 10%;
+    display: inline;
+    background-color: #5f3ea1;
+}
